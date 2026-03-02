@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trang 1</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+/* Tiêu đề chính */
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Khung ảnh */
+.gallery-item{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Ảnh */
+.gallery-item img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Chú thích ảnh */
+.caption{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Tiêu đề video */
+.video-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Video */
+video{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Phiên chợ xuân tại  Bính Ngọ </h2>
+
+<div class="gallery-item">
+    <img src="tet1.jpg" alt="Phiên chợ xuân 2026 ">
+    <div class="caption">
+      Một góc không khí chợ hoa rộn ràng và các gian hàng mứt ngày Tết.
+    </div>
+</div>
+
+<h3 class="video-title">Video hoạt động phiên chợ Xuân</h3>
+
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    Trình duyệt không hỗ trợ video.
+</video>
+
+</body>
+</html>
